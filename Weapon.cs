@@ -19,7 +19,7 @@ namespace Comandos
             NmofWeapons = nmofWeapons;
         }
 
-        public void shot()
+        public void shoot()
         {
             if (NmofWeapons > 0)
             {
