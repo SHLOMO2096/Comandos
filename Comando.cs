@@ -27,8 +27,6 @@ namespace Comandos
         private string Name;
         protected string NameId { get; set; }
         protected Tools[] tools = { Tools.Hammer, Tools.Chisel, Tools.Rope, Tools.WaterBag, };
-        
-        
         protected strStatus CurrentStatus;
 
         public Comando(string name, string nameId)
